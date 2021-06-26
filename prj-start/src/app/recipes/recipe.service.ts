@@ -25,6 +25,7 @@ export class RecipeService {
         new Ingredient('Frence tacos', 3)
       ])
   ];
+  // private recipes: Recipe[] = [];
   constructor(private slService: ShoppingListService) {
   }
   getRecipes() {
